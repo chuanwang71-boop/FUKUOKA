@@ -1,3 +1,246 @@
-img{
+body{
+    background-color:#12372a;
+    font-family: "Noto Serif JP", "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-weight: 600;
+  letter-spacing: 1px; 
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.header h1{
+    text-align: center;
+    color: white;
+    background:#adbc9f;
+    font-size: 68px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.Menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 36px;
+    background-color:#e44821;
+    border-radius: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+.Menu a{
+    text-decoration: none;
+    color: #fbdc92;
+    font-weight: bold;
+}
+
+.intro{
+    background-color: #adbc9f;
+    border-radius: 20px;
+    max-width: 1600px;
+    margin: 20px auto;
+    padding: 60px;            
+    box-sizing: border-box;
+    text-align: center;     
+    margin-right: 150px;
+    margin-left: 150px;   
+}
+
+.intro-img{
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+    margin-bottom: 40px;   
+}
+
+.intro h2{
+    font-size: 36px;
+    color: #fbdc92;
+}
+.intro p{
+    color: #12372a;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+
+}
+
+.scienice{
+    background-color: #1a6840;
+    border-radius: 20px;
+    max-width: 2000px;
+    margin: 20px auto;
+    padding: 100px;            
+    box-sizing: border-box;
+    text-align: center;     
+    margin-right: 150px;
+    margin-left: 150px;   
+}
+
+.scienice h2{
+    background: #e44821;
+    color: #fbdc92;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 50px;
+    font-weight: 600; 
+}
+
+.places{
+    list-style: none;
+    padding: 0;
+    margin: 40px auto;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: stretch;
+
+}
+
+.places img{
+    width: 220px;
+    height: 120px;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: block;
+    object-fit: cover;
+
+}
+
+
+.places li{
+    background-color: #fbdc92;
+    border-radius: 15px;
     width: 200px;
+    padding: 75px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.places h3{
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #e44821;
+    font-style: italic;
+}
+
+.places p{
+    font-size: 14px;
+    color: #12372a;
+}
+
+.places a{
+    text-decoration: none;
+    color: #53589a;
+    font-weight: bold;
+    font-style:italic;
+}
+
+.back-to-top{
+    color: #ffb2b9;
+    text-decoration: none;
+    margin-top: 40px;
+    font-size: 14px;
+    display: inline-block;
+    
+}
+
+.hotel{
+    background-color: #436850;
+    border-radius: 20px;
+    max-width: 2000px;
+    margin: 20px auto;
+    padding: 100px;            
+    box-sizing: border-box;
+    text-align: center;     
+    margin-right: 150px;
+    margin-left: 150px;  
+    margin-top: 20px;
+}
+
+.hotel h2{
+    background: #e44821;
+    color: #fbdc92;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 50px;
+    font-weight: 600;   
+}
+
+.stays{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;  
+    gap: 30px; 
+}
+
+.stays img{
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.stays li{
+    display: flex;
+    gap: 30px;
+    background-color: #fbdc92;
+    border-radius: 15px;
+    padding: 25px;
+    align-items: center;
+}
+
+.left .day-tag {
+  background: #e44821;
+  color: #fbdc92;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.left h3{
+    font-style: italic;
+    color: #e44821;
+}
+
+.right{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.right p{
+  margin: 0;
+  color: #12372a;
+  line-height: 1.5;
+}
+
+.price{
+  font-weight: 600;
+  color:#e44821;
+  font-size: 15px;
+}
+
+.right a{
+    text-decoration: none;
+    color: #53589a;
+    font-weight: bold;
+    font-style:italic;
 }
