@@ -1,8 +1,8 @@
 body{
     background-color:#12372a;
     font-family: "Noto Serif JP", "Yu Mincho", "Hiragino Mincho ProN", serif;
-  font-weight: 600;
-  letter-spacing: 1px; 
+    font-weight: 600;
+    letter-spacing: 1px; 
 }
 
 html{
@@ -73,7 +73,7 @@ html{
 
 }
 
-.scienice{
+.scenic{
     background-color: #1a6840;
     border-radius: 20px;
     max-width: 2000px;
@@ -85,7 +85,7 @@ html{
     margin-left: 150px;   
 }
 
-.scienice h2{
+.scenic h2{
     background: #e44821;
     color: #fbdc92;
     padding: 4px 10px;
@@ -206,12 +206,12 @@ html{
 }
 
 .left .day-tag {
-  background: #e44821;
-  color: #fbdc92;
-  padding: 4px 10px;
-  border-radius: 999px;
-  font-size: 14px;
-  font-weight: 600;
+    background: #e44821;
+    color: #fbdc92;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .left h3{
@@ -220,22 +220,22 @@ html{
 }
 
 .right{
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .right p{
-  margin: 0;
-  color: #12372a;
-  line-height: 1.5;
+    margin: 0;
+    color: #12372a;
+    line-height: 1.5;
 }
 
 .price{
-  font-weight: 600;
-  color:#e44821;
-  font-size: 15px;
+    font-weight: 600;
+    color:#e44821;
+    font-size: 15px;
 }
 
 .right a{
